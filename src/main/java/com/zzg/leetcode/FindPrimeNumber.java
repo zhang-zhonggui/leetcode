@@ -1,8 +1,5 @@
 package com.zzg.leetcode;
 
-import com.google.common.collect.Lists;
-import lombok.extern.slf4j.Slf4j;
-
 import java.util.ArrayList;
 
 /**
@@ -10,7 +7,6 @@ import java.util.ArrayList;
  *
  * @author zzg
  */
-@Slf4j
 public class FindPrimeNumber {
     /**
      * 判断数以下有多少个素数
@@ -20,10 +16,9 @@ public class FindPrimeNumber {
      */
     public static Integer[] findPrimeNumbers(int number) {
         if (number < 2) {
-            log.info("输入数字必须大于1");
             return null;
         }
-        ArrayList<Integer> arr = Lists.newArrayList();
+        ArrayList<Integer> arr= new ArrayList<>();
         for (int i = 2; i <= number; i++) {
             if (judgeWhetherItIsAPrimeNumber(i)) {
                 arr.add(i);
