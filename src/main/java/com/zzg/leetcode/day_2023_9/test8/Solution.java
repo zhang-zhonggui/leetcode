@@ -6,7 +6,6 @@ package com.zzg.leetcode.day_2023_9.test8;
 class Solution {
     public boolean isPalindrome(String s) {
         String lowerCase = s.toLowerCase();
-
         int left = 0;
         int right = lowerCase.length() - 1;
         while (left < right) {
