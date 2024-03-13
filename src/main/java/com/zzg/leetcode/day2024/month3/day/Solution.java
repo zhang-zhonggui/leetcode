@@ -1,4 +1,4 @@
-package com.zzg.leetcode.day2024.month3;
+package com.zzg.leetcode.day2024.month3.day;
 
 /**
  * 将标题首字母大写
