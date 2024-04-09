@@ -1,5 +1,7 @@
 package com.zzg.leetcode.day2024.month4.day9;
 
+import com.zzg.leetcode.utils.ListNode;
+
 import java.util.Arrays;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -21,14 +23,15 @@ class Solution {
     public String finalString(String s) {
         StringBuffer str = new StringBuffer();
         for (int i = 0; i < s.length(); i++) {
-            if ('i'== s.charAt(i)) {
+            if ('i' == s.charAt(i)) {
                 str.reverse();
-            }else{
+            } else {
                 str.append(s.charAt(i));
             }
         }
         return str.toString();
     }
+
     public int maximumNumberOfStringPairs(String[] words) {
         int count = 0;
         for (int i = 0; i < words.length; i++) {
@@ -43,4 +46,21 @@ class Solution {
         }
         return count;
     }
+
+    public ListNode reverseList(ListNode head) {
+        ListNode prev = null;
+        ListNode curr = head;
+        while (curr != null) {
+            ListNode next = curr.next;
+            curr.next=prev;
+            prev=curr;
+            curr=next;
+        }
+        return prev;
+    }
+    public boolean containsDuplicate(int [] nums) {
+        Set<Integer> set = Arrays.stream(nums).boxed().collect(Collectors.toSet());
+        return set.size()!=nums.length;
+    }
+
 }
