@@ -1,5 +1,9 @@
 package com.zzg.leetcode.day2024.month4.day9;
 
+import java.util.Arrays;
+import java.util.Set;
+import java.util.stream.Collectors;
+
 class Solution {
     public int maximumCount(int[] nums) {
         int a = 0, b = 0;
@@ -24,5 +28,19 @@ class Solution {
             }
         }
         return str.toString();
+    }
+    public int maximumNumberOfStringPairs(String[] words) {
+        int count = 0;
+        for (int i = 0; i < words.length; i++) {
+            String word = words[i];
+            StringBuilder stringBuilder = new StringBuilder(word);
+            stringBuilder.reverse();
+            Set<String> strings = Arrays.stream(Arrays.copyOfRange(words, i + 1, words.length)).collect(Collectors.toSet());
+            if (strings.contains(stringBuilder.toString())) {
+                count++;
+                strings.remove(stringBuilder.toString());
+            }
+        }
+        return count;
     }
 }
