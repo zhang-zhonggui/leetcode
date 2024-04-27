@@ -10,7 +10,6 @@ public class Day3 {
         list.add(new Student("王五", 16));
         //使用jdk8的stream求年龄平均值
         double avgAge = list.stream().mapToInt(Student::getAge).average().getAsDouble();
-
-
+        System.out.println(avgAge);
     }
 }
