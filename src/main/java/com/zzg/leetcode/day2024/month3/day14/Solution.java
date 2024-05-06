@@ -5,6 +5,7 @@ import com.zzg.leetcode.utils.TreeNode;
 class Solution {
     /**
      * 将给定二叉树转换为其镜像。
+     *
      * @param root 二叉树的根节点。
      * @return 转换后的二叉树的根节点。
      */
@@ -13,14 +14,19 @@ class Solution {
         if (root == null) {
             return null;
         }
-        // 交换根节点的左右子树
         TreeNode left = root.left;
         TreeNode right = root.right;
-        root.left = right;
         root.right = left;
-        // 递归地对左右子树进行镜像处理
+        root.left = right;
         mirrorTree(root.left);
         mirrorTree(root.right);
         return root;
+    }
+
+    public boolean isPowerOfThree(int n) {
+        while (n != 0 && n % 3 == 0) {
+            n /= 3;
+        }
+        return n == 1;
     }
 }
