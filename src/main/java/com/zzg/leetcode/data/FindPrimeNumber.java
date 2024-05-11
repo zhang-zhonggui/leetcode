@@ -1,4 +1,4 @@
-package com.zzg.leetcode;
+package com.zzg.leetcode.data;
 
 import java.util.ArrayList;
 

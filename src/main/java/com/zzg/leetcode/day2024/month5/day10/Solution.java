@@ -24,17 +24,13 @@ class Solution {
     }
 
     public ListNode reverseList(ListNode head) {
-        ListNode pre = null;
-        while(head!=null){
-            //保存当前节点下一个节点
-            ListNode temp = head.next;
-            //指向前一个节点（头结点指向null）
-            head.next = pre;
-            pre = head;
-            head = temp;
+        if (head == null || head.next == null){
+            return head;
         }
-        //将反转后的链表头节点返回
-        return pre;
+        ListNode node = reverseList(head.next);
+        head.next.next = head;
+        head.next = null;
+        return node;
     }
 
 
