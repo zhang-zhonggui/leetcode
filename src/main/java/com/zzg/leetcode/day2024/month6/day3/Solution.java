@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
-
         int[] arr = new int[num_people];
         int count = 0;
         for (int i = 0; candies > 0; i++) {
