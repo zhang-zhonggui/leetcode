@@ -16,7 +16,7 @@ class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] ints = solution.distributeCandies(10, 3);
-        System.out.println(Arrays.toString(ints));
+        int[] data = solution.distributeCandies(10, 3);
+        System.out.println(Arrays.toString(data));
     }
 }
