@@ -1,4 +1,4 @@
-package com.zzg.leetcode.mianshi;
+package mianshi;
 
 
 public class Student {

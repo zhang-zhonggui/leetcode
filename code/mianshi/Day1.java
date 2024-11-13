@@ -1,4 +1,4 @@
-package com.zzg.leetcode.mianshi;
+package mianshi;
 
 public class Day1 {
     public static void main(String[] args) {
