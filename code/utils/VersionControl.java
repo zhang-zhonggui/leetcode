@@ -1,4 +1,4 @@
-package com.zzg.leetcode.utils;
+package utils;
 
 public class VersionControl {
     public boolean isBadVersion(int version) {

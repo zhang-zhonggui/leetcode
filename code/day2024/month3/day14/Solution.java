@@ -1,6 +1,7 @@
-package com.zzg.leetcode.day2024.month3.day14;
+package day2024.month3.day14;
 
-import com.zzg.leetcode.utils.TreeNode;
+
+import utils.TreeNode;
 
 class Solution {
     /**

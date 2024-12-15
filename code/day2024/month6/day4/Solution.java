@@ -1,6 +1,7 @@
 package day2024.month6.day4;
 
-import com.zzg.leetcode.utils.TreeNode;
+
+import utils.TreeNode;
 
 class Solution {
     int count = 1;

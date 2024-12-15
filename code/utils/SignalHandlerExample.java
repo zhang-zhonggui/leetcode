@@ -1,4 +1,4 @@
-package com.zzg.leetcode.utils;
+package utils;
 
 public class SignalHandlerExample {
 //    public static void main(String[] args) {
