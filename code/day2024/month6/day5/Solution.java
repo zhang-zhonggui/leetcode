@@ -1,6 +1,7 @@
 package day2024.month6.day5;
 
-import com.zzg.leetcode.utils.VersionControl;
+
+import utils.VersionControl;
 
 public class Solution extends VersionControl {
     public int firstBadVersion(int n) {

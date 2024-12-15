@@ -1,6 +1,7 @@
 package day2024.month6.day13;
 
-import com.zzg.leetcode.utils.GuessGame;
+
+import utils.GuessGame;
 
 public class Solution extends GuessGame {
     public int guessNumber(int n) {
