@@ -1,4 +1,4 @@
-package com.zzg.leetcode.day2024.month4.day25;
+package day2024.month4.day25;
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {

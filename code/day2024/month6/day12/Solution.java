@@ -1,6 +1,6 @@
 package day2024.month6.day12;
 
-import com.zzg.leetcode.utils.ListNode;
+import utils.ListNode;
 
 class Solution {
     public int accountBalanceAfterPurchase(int purchaseAmount) {

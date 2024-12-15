@@ -1,4 +1,4 @@
-package com.zzg.leetcode.day2024.month3.day2;
+package day2024.month3.day2;
 
 /**
  * 34. 在排序数组中查找元素的第一个和最后一个位置

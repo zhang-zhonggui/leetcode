@@ -1,4 +1,4 @@
-package com.zzg.leetcode.day2024.month5.day12;
+package day2024.month5.day12;
 
 import java.util.HashMap;
 import java.util.Map;

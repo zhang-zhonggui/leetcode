@@ -1,4 +1,4 @@
-package com.zzg.leetcode.day2024.month5.day18;
+package day2024.month5.day18;
 
 import java.util.*;
 import java.util.stream.Collectors;

@@ -1,4 +1,4 @@
-package com.zzg.leetcode.day2024.month5.day23;
+package day2024.month5.day23;
 
 class Solution {
     public int maximum(int a, int b) {

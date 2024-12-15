@@ -1,4 +1,4 @@
-package com.zzg.leetcode.day2024.month4.day14;
+package day2024.month4.day14;
 
 class Solution {
     public int countPairs(int[] nums, int k) {

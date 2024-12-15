@@ -1,6 +1,6 @@
-package com.zzg.leetcode.day2024.month5.day6;
+package day2024.month5.day6;
 
-import com.zzg.leetcode.utils.ListNode;
+import utils.ListNode;
 
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {

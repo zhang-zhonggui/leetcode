@@ -1,6 +1,8 @@
-package com.zzg.leetcode.day2024.month4.day9;
+package day2024.month4.day9;
 
-import com.zzg.leetcode.utils.ListNode;
+
+
+import utils.ListNode;
 
 import java.util.Arrays;
 import java.util.Set;

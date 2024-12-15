@@ -1,4 +1,4 @@
-package com.zzg.leetcode.day2024.month4.day19;
+package day2024.month4.day19;
 
 class Solution {
     public char findTheDifference(String s, String t) {

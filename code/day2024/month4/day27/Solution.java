@@ -1,4 +1,4 @@
-package com.zzg.leetcode.day2024.month4.day27;
+package day2024.month4.day27;
 
 import java.util.ArrayList;
 import java.util.Arrays;

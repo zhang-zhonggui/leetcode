@@ -1,6 +1,7 @@
-package com.zzg.leetcode.day2024.month5.day10;
+package day2024.month5.day10;
 
-import com.zzg.leetcode.utils.ListNode;
+
+import utils.ListNode;
 
 class Solution {
     public boolean isPowerOfFour(int n) {

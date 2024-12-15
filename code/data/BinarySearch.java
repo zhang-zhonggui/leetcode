@@ -1,4 +1,4 @@
-package com.zzg.leetcode.data;
+package data;
 
 /**
  * 二分查找

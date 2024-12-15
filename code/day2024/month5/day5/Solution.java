@@ -1,4 +1,4 @@
-package com.zzg.leetcode.day2024.month5.day5;
+package day2024.month5.day5;
 
 class Solution {
     public int[] decrypt(int[] code, int k) {

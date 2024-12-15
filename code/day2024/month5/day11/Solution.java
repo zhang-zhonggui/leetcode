@@ -1,4 +1,4 @@
-package com.zzg.leetcode.day2024.month5.day11;
+package day2024.month5.day11;
 
 class Solution {
     public int numJewelsInStones(String jewels, String stones) {

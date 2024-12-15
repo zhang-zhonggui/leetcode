@@ -1,6 +1,6 @@
 package day2024.month9.test3;
 
-import com.zzg.leetcode.utils.ListNode;
+import utils.ListNode;
 
 class Solution {
     public ListNode swapPairs(ListNode head) {

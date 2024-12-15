@@ -1,4 +1,4 @@
-package com.zzg.leetcode.day2024.month5.day16;
+package day2024.month5.day16;
 
 import java.time.LocalDate;
 import java.time.format.TextStyle;

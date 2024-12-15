@@ -1,6 +1,7 @@
 package day2024.month9.test1;
 
-import com.zzg.leetcode.utils.ListNode;
+
+import utils.ListNode;
 
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
