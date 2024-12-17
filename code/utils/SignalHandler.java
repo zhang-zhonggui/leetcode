@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class SignalHandler {
+    @SuppressWarnings("deprecation")
     public static void main(String[] args) throws IOException {
         // 设置要执行的外部命令或脚本  
         String command = "/path/to/your/script.sh";  

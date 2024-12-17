@@ -9,7 +9,7 @@ import java.util.List;
 class Solution {
     public String longestPalindrome(String s) {
         char[] chars = s.toCharArray();
-        ArrayList<List> strings = new ArrayList<>(5);
+        ArrayList<List<Character>> strings = new ArrayList<>(5);
         for (int i = 0; i < chars.length; i++) {
             List<Character> list = new LinkedList<>();
             for (int j = i; j < chars.length; j++) {
@@ -29,7 +29,8 @@ class Solution {
         for (int i = 1; i < strings.size(); i++) {
             max = Math.max(strings.get(i).size(), strings.get(i - 1).size());
         }
-        List list = strings.get(max - 1);
+        List<Character> list = strings.get(max - 1);
+        System.out.println(list);
         StringBuilder stringBuilder = new StringBuilder();
         max -= max;
         for (int i = 0; i < strings.get(max).size(); i++) {
