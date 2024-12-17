@@ -26,5 +26,6 @@ class Solution {
 
     public static void main(String[] args) {
         int i = new Solution().vowelStrings(new String[]{"are", "amy", "u"}, 0, 2);
+        System.out.println(i);
     }
 }

@@ -1,6 +1,5 @@
 package day2023.day_2023_1.test4;
 
-import java.util.ArrayList;
 
 class Solution {
 

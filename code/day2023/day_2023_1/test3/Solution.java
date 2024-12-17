@@ -24,7 +24,7 @@ class Solution {
 
     public int myAtoi(String s) {
         String a = "/^[0-9]*$/";
-        StringBuffer number = null;
+        StringBuffer number = new StringBuffer();
         for (char x : s.toCharArray()) {
             if (String.valueOf(x).matches(a)){
                 number.append(x);

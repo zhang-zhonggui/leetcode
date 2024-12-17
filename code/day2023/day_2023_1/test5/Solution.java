@@ -1,6 +1,5 @@
 package day2023.day_2023_1.test5;
 
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 
