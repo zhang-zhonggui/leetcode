@@ -1,19 +1,20 @@
 package data;
 
-/**
- * @Author zzg
- */ // 定义一个单例类
+/**定义一个单例类
+ * @author zzgcn
+ */
 public class Singleton {
-    // 定义一个私有构造函数
+
+
     private Singleton() {
+
     }
+    private static  Singleton INSTANCE = new Singleton();
 
-    // 定义一个静态的final变量
-    private static final Singleton SINGLETON = new Singleton();
-
-    // 定义一个获取实例的方法
     public static Singleton getInstance() {
-        return SINGLETON;
+        if(INSTANCE == null) {
+            INSTANCE = new Singleton();
+        }
+        return INSTANCE;
     }
-
 }
