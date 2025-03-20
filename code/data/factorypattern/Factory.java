@@ -5,18 +5,15 @@ package data.factorypattern;
  */
 public class Factory {
 
-
     public static Animal createFactory(String type) {
-        if (type == null || type.isBlank()) {
+        if (type == null || type.trim().isEmpty()) {
             return new People();
         }
-        if ("cat".equalsIgnoreCase(type)) {
-            return new Cat();
-        } else if ("dog".equalsIgnoreCase(type)) {
-            return new Dog();
-        } else {
-            throw new IllegalArgumentException("目前不支持" + type);
-        }
+        return switch (type.toLowerCase()) {
+            case "cat" -> new Cat();
+            case "dog" -> new Dog();
+            default -> throw new IllegalArgumentException("目前不支持类型: " + type);
+        };
     }
 
 }
